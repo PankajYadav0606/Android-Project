@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID" />
+
+    <EditText
+        android:id="@+id/etRoundId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Round ID" />
+
+    <EditText
+        android:id="@+id/etPassed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Passed (true/false)" />
+
+    <Button
+        android:id="@+id/btnAddResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Result" />
+
+    <ListView
+        android:id="@+id/resultListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

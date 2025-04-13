@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etCompanyId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company ID" />
+
+    <EditText
+        android:id="@+id/etRoundType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Round Type (e.g. Aptitude)" />
+
+    <EditText
+        android:id="@+id/etSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Schedule (e.g. 2025-05-10 10:00AM)" />
+
+    <Button
+        android:id="@+id/btnAddRound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Round" />
+
+    <ListView
+        android:id="@+id/roundListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
