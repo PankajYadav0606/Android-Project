@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Spidey</string>
+    <string name="Hint_ET">Enter Your Name</string>
+    <string name="EditText">Happy Spider</string>
+</resources>

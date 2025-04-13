@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/planetImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/earth"
+        android:layout_margin="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earth"
+            android:textSize="30sp"
+            android:fontFamily="@font/text"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FF5252"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/mooncount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COUNT-1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:fontFamily="@font/text"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

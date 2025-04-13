@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#E41818"
+        android:text=" Instagram"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="️❤️☠️"
+        android:textAlignment="viewEnd"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rowCount="1"
+                android:columnCount="10">
+
+
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/img11"/>
+
+
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/img3"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/img4"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/im2"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/img7"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/img8"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/img6"/>
+            </GridLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Posts"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rowCount="1"
+                    android:columnCount="10">
+
+
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post1"/>
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post2"/>
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post3"/>
+
+                </GridLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Post-2"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rowCount="1"
+                    android:columnCount="10">
+
+
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post1"/>
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post2"/>
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post3"/>
+
+                </GridLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Post-3"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rowCount="1"
+                    android:columnCount="10">
+
+
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post1"/>
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post2"/>
+                    <ImageView
+                        android:layout_height="500dp"
+                        android:layout_width="500dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/post3"/>
+
+                </GridLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="4"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/img3"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

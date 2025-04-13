@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <?xml version="1.0" encoding="utf-8"?>
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.viewmodel.MyViewModel" />
+    </data>
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(viewModel.counter)}"
+            android:textSize="80dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"/>
+
+        <Button
+            android:onClick="@{()->viewModel::onIncrease}"
+            android:backgroundTint="#E00C0C"
+            android:id="@+id/incbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Increase"/>
+
+        <Button
+            android:onClick="@{()->viewModel::onDecrease}"
+            android:id="@+id/decbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Decrease"/>
+    </LinearLayout>
+
+
+
+
+</layout>

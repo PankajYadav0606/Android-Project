@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".uploadPhoto">
+
+
+
+
+    <TextView
+        android:id="@+id/toUploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Click Upload IMG"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="50dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_marginTop="20dp"/>
+
+    <Switch
+        android:id="@+id/toggleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aggre all the term"
+        android:paddingHorizontal="40dp"
+        android:textSize="20sp"
+        android:drawablePadding="20sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Click here to regester"
+        android:enabled="false"
+        android:paddingEnd="20dp"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="50dp"/>
+
+
+</LinearLayout>

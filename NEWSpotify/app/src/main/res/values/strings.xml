@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NEW Spotify</string>
+    <string name="Username">User Name</string>
+    <string name="Password">Password</string>
+    <string name="C">C</string>
+    <string name="java">Java</string>
+    <string name="Ruby">Ruby\n</string>
+    <string name="Javascript">JS</string>
+    <string name="CSS">CSS</string>
+    <string name="HTML">HTML</string>
+    <string name="PHP">PHP</string>
+    <string name="MYSQL">MYSQL</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Other">Other</string>
+    <string name="SelectDate">Select Date</string>
+    <string name="UploadImage">Upload Image</string>
+</resources>

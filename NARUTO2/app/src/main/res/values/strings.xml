@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NARUTO</string>
+    <string name="Submit">Submit</string>
+    <string name="Login_Page">Login Page</string>
+    <string name="Logo_Image">TODO</string>
+    <string name="Edittext">User Name</string>
+    <string name="Password_P">Password</string>
+    <string name="relative_layout">Relative_Layout</string>
+    <string name="image">IMAGE</string>
+    <string name="input1">Input 1</string>
+    <string name="input2">Input 2</string>
+    <string name="Button">Button</string>
+    <string name="button">Button</string>
+    <string name="layout">LayOut</string>
+    <string name="table_layout">TableLaout</string>
+
+</resources>

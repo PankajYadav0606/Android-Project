@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListView App</string>
+    <string name="country_name">Country Name\n</string>
+</resources>
